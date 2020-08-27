@@ -1,8 +1,4 @@
-import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:riverpod_explore/src/network/api_manager.dart';
-import 'package:riverpod_explore/src/network/api_request.dart';
-import 'package:riverpod_explore/src/network/endpoints.dart';
 import 'package:riverpod_explore/src/screen/counter_screen.dart';
 import 'package:riverpod_explore/src/screen/op_screen.dart';
 import 'package:riverpod_explore/src/screen/order_screen.dart';
