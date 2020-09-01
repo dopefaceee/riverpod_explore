@@ -91,7 +91,7 @@ class OrderScreen extends HookWidget {
                   trailing: IconButton(
                     icon: Icon(Icons.add),
                     onPressed: () {
-                      cartProvider.read(context).add(pizza, toppingList[i]);
+                      context.read(cartProvider).add(pizza, toppingList[i]);
                     },
                   ),
                   leading: Container(

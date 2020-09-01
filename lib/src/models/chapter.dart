@@ -6,7 +6,7 @@ class Chapter {
   String summary;
   String characters;
   String coverCharacters;
-  Null publish;
+  String publish;
   String explanation;
   String createdAt;
   String updatedAt;
