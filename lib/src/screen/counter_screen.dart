@@ -7,7 +7,7 @@ import 'package:riverpod_explore/src/screen/detail_screen.dart';
 class CounterScreen extends HookWidget {
   @override
   Widget build(BuildContext context) {
-    final counter = useProvider(counterProvider).state;
+    final counter = useProvider(counterProvider.state);
 
     return Scaffold(
       appBar: AppBar(
